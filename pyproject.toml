@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tutorial_pybr"
+version = "0.1.0"
+description = ""
+authors = ["felipedsanta <felipe.carro3@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.0"
+httpx = "^0.21.1"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+httpie = "^2.6.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
